@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "norse";
+    src: url("Norse-Bold.otf");
+}
+
+.pic{
+    background: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    height: 99vh;
+    width: 35%;
+    position: absolute;
+}
+
+.body{
+    display: flex;
+}
+
+
+
+.logoBox{
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    top: 200px;
+    backdrop-filter: blur(50%);
+    display: flex;
+    justify-content: center;
+
+}
+.odin{
+    /*height: 120px;*/
+    top: 200px;
+    font-size: 80px;
+    color: azure;
+    font-family: norse, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+img{
+    height: 100px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: mintcream;
+    padding: 150px 200px 40px 20px;
+    margin-left: 490px;
+}
+
+.tables{
+    margin-left: 490px;
+    padding-top: 40px;
+    padding-left: 30px;
+    box-shadow: black;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.label{
+    width: 250px;
+}
+
+.tables{
+    display: flex;
+    gap: 100px;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    border: solid green;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 490px;
+}
+.foot{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: mintcream;
+    padding: 15px 200px 140px 20px;
+    margin-left: 490px;
+}
+.but{
+    background-color: mintcream;
+    padding-left: 30px;
+}
+
