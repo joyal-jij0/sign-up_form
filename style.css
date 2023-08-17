@@ -98,3 +98,10 @@ button{
     padding-left: 30px;
 }
 
+.credit{
+    color: white;
+    position: relative;
+    top: 690px;
+    left: 150px;
+    font-size: 12px;
+}
